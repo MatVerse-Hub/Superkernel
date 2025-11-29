@@ -1,0 +1,17 @@
+[project]
+name = "superkernel"
+version = "0.1.0"
+description = "Polygon-enabled antifragile kernel with TACE oracle"
+authors = [{name = "MatVerse"}]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+polygon = [
+  "web3>=6.8",
+  "python-dotenv>=1.0",
+]
+
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
